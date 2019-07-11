@@ -1,0 +1,33 @@
+.container {
+    padding: 0 15px;
+    margin: auto;
+    position: relative;
+
+    @media (min-width:$minSmall) {
+        width: 750px;
+    }
+
+    @media (min-width:$minMed) {
+        width: 970px;
+    }
+
+    @media (min-width:$minLarge) {
+        width: 1170px;
+    }
+}
+
+.table {
+    height: 100%;
+    display: table;
+}
+
+.table-row {
+    display: table-row;
+    height: 100%;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}

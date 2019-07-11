@@ -1,0 +1,6 @@
+@mixin Prefixes($prefixer, $prop, $value) {
+    @each $prefix in $prefixer {
+        -#{$prefix}-#{$prop}: $value;
+    }
+    $prop:$value;
+}

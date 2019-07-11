@@ -1,0 +1,91 @@
+.header {
+    .buttons {
+        button {
+            color: #fff;
+            background: transparent;
+            margin-top: 40px;
+            padding: 6px 0;
+            width: 157px;
+            margin-left: 28px;
+            font-size: 14px;
+            border: 1px solid #5c5959;
+            border-radius: 10px;
+            -webkit-transition: all 0.5s ease-in-out;
+            -moz-transition: all 0.5s ease-in-out;
+            -o-transition: all 0.5s ease-in-out;
+            cursor: pointer;
+
+            &:hover {
+                border-color: #f7600e;
+                background-color: #f7600e;
+            }
+        }
+
+    }
+}
+
+
+.subscribe {
+    form {
+        button {
+            cursor: pointer;
+            display: inline-block;
+            color: #fff;
+            margin-left: 11px;
+            border-radius: 10px;
+            padding: 6px;
+            width: 137px;
+            background-color: #f7600e;
+            border: none;
+            font-size: 14px;
+        }
+    }
+}
+
+.our-work {
+    .items {
+        .itembox {
+            .over {
+                button {
+                    background-color: transparent;
+                    border: 1px solid #fff;
+                    border-radius: 10px;
+                    padding: 6px;
+                    color: #fff;
+                    width: 128px;
+                    cursor: pointer;
+                    transition: all 0.5s ease-in-out;
+
+                    &:hover {
+                        background: #fff;
+                        color: #f7600e;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.contact-form {
+    form {
+        button {
+            float: left;
+            margin-top: 10px;
+            width: 147px;
+            padding: 6px;
+            color: #fff;
+            border: 1px solid #fff;
+            border-radius: 10px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #fff;
+                color: #f7600e;
+
+            }
+        }
+    }
+
+
+}

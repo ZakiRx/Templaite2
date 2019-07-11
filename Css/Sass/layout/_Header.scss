@@ -1,0 +1,58 @@
+.header {
+    background: url('../Images/1.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .navbar {
+        overflow: hidden;
+        position: absolute;
+        padding: 20px 0;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .links {
+        float: right;
+
+        i {
+            margin-left: 5px;
+            margin-right: 12px;
+
+        }
+    }
+
+    .intro {
+        p {
+            line-height: 1.5;
+        }
+
+    }
+
+    .arrow {
+        position: absolute;
+        bottom: 0;
+        width: 10px;
+        margin: 0 50% auto;
+        padding: 10px 0;
+        cursor: pointer;
+        display: inline-block;
+
+        .fa-chevron-down {
+
+            border: 1px solid #ccc;
+            padding: 4px;
+            border-radius: 50%;
+
+        }
+
+    }
+
+}
